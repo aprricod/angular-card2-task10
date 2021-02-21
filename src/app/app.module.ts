@@ -25,12 +25,10 @@ import { Comp10Component } from './comp10/comp10.component';
     Comp7Component,
     Comp8Component,
     Comp9Component,
-    Comp10Component
+    Comp10Component,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
